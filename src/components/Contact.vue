@@ -9,7 +9,7 @@
 				<div class="bg-zinc-800 border border-zinc-600 m-auto pt-6 pb-6 text-white text-center">
 					<font-awesome-icon icon="fa-solid fa-location-dot" class="text-emerald-600 text-4xl m-auto mb-4" />
 					<br />
-					<span class="text-lg font-bold">Chiapas</span>
+					<span class="text-lg font-bold">Chiapas, México</span>
 				</div>
 
 				<div class="bg-zinc-800 border border-zinc-600 m-auto pt-6 pb-6 text-white text-center mt-4">

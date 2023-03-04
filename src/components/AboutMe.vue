@@ -31,7 +31,7 @@
 				<br />
 				<span class="text-emerald-600 font-bold mr-2">Residencia</span>MEX
 				<br />
-				<span class="text-emerald-600 font-bold mr-2">Dirección</span>Andador 1, Fracc. Buenos Aires #125, TGZ, Chiapas
+				<span class="text-emerald-600 font-bold mr-2">Dirección</span>Buenos Aires, Tuxtla Gutiérrez, Chiapas
 				<br />
 				<span class="text-emerald-600 font-bold mr-2">Correo</span><a href="mailto:gtzcrash@gmail.com">gtzcrash@gmail.com</a>
 				<br />
