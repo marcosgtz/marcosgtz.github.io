@@ -12,36 +12,26 @@
 <template>
 	<div class="text-white px-16 h-full overflow-hidden scrollbar-stable hover:overflow-y-scroll">
 		<h1 class="text-3xl font-bold">
-			Acerca de <span class="text-emerald-500">Mí</span>
+			{{this.langMessage('about_title1-1')}} <span class="text-emerald-500">{{this.langMessage('about_title1-2')}}</span>
 		</h1>
 
 		<div class="grid grid-cols-3 gap-10 mt-8 font-light">
 			<div class="col-span-2  leading-7">
-				Soy programador web con {{ getAgeExperience() }} años de experiencia en Front-End y Back-End. Conozco un poco de cada lenguaje
-				de programación, pero mi especialidad es PHP.
-
+				{{this.langMessage('about_description1')}} {{ getAgeExperience() }} {{this.langMessage('about_description2')}}
 				<br /><br />
-
-				Tengo la habilidad de entender, modificar y adaptarme a las metodologías más comunes de programación,
-				incluido el <span class="font-bold">espageti</span>. Estoy abierto a investigar
-				por mi cuenta las cosas que desconozco y aprender en el proceso.
+				{{this.langMessage('about_description3')}} <span class='font-bold'>espageti</span>. {{this.langMessage('about_description4')}}
 			</div>
 			<div class="leading-9">
-				<span class="text-emerald-600 font-bold mr-2">Edad</span>{{ getAge() }}
+				<span class="text-emerald-600 font-bold mr-2">{{this.langMessage('about_age')}}</span>{{ getAge() }}
 				<br />
-				<span class="text-emerald-600 font-bold mr-2">Residencia</span>MEX
+				<span class="text-emerald-600 font-bold mr-2">{{this.langMessage('about_place')}}</span>Chiapas, MEX
 				<br />
-				<span class="text-emerald-600 font-bold mr-2">Dirección</span>Buenos Aires, Tuxtla Gutiérrez, Chiapas
-				<br />
-				<span class="text-emerald-600 font-bold mr-2">Correo</span><a href="mailto:gtzcrash@gmail.com">gtzcrash@gmail.com</a>
-				<br />
-				<span class="text-emerald-600 font-bold mr-2">Teléfono</span>+52 9611876874
-
+				<span class="text-emerald-600 font-bold mr-2">{{this.langMessage('about_email')}}</span><a href="mailto:gtzcrash@gmail.com">gtzcrash@gmail.com</a>
 			</div>
 		</div>
 
 		<h1 class="text-2xl font-bold mt-12 mb-8">
-			Que puedo <span class="text-emerald-500">Hacer?</span>
+			{{this.langMessage('about_title2-1')}} <span class="text-emerald-500">{{this.langMessage('about_title2-2')}}</span>
 		</h1>
 
 		<div class="grid grid-cols-2 gap-x-14 gap-y-6 text-justify">
@@ -49,8 +39,7 @@
 				<font-awesome-icon class="text-3xl text-emerald-600" icon="fa-solid fa-palette" />
 				<h3 class="text-xl font-bold mt-2">Front-End</h3>
 				<div class="leading-6 font-light text-sm">
-					Conocimiento intermedio de js; básico-intermedio de bootstrap,
-					tailwind, vue y angular.
+					{{this.langMessage('about_frontend')}}
 				</div>
 			</div>
 
@@ -58,26 +47,23 @@
 				<font-awesome-icon class="text-3xl text-emerald-600" icon="fa-solid fa-tools" />
 				<h3 class="text-xl font-bold mt-2">Back-End</h3>
 				<div class="leading-6 font-light text-sm">
-					Conocimiento avanzado de PHP. Intermedio de Laravel, Lumen, Twig, Inertia.
-					Básico en nodejs + expressjs
+					{{this.langMessage('about_backend')}}
 				</div>
 			</div>
 
 			<div>
 				<font-awesome-icon class="text-3xl text-emerald-600" icon="fa-solid fa-server" />
-				<h3 class="text-xl font-bold mt-2">Servicios</h3>
+				<h3 class="text-xl font-bold mt-2">{{this.langMessage('about_title3-1')}}</h3>
 				<div class="leading-6 font-light text-sm">
-					Instalación y configuración de servicios web (apache, nginx, iis), manejo de ssh, ftp, bash,
-					php-(fpm,cli), mysql, oracle.
+					{{this.langMessage('about_services')}}
 				</div>
 			</div>
 
 			<div>
 				<font-awesome-icon class="text-3xl text-emerald-600" icon="fa-solid fa-gifts" />
-				<h3 class="text-xl font-bold mt-2">Terceros</h3>
+				<h3 class="text-xl font-bold mt-2">{{this.langMessage('about_title3-2')}}</h3>
 				<div class="leading-6 font-light text-sm">
-					Autenticaciones con Ldap, Azure, Google, Saml. Creación de plugins básicos para wordpress.
-					Google Admin SDK con PHP. Manejo de firmas electrónicas.
+					{{this.langMessage('about_thirdparty')}}
 				</div>
 			</div>
 		</div>

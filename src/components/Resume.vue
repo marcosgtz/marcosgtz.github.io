@@ -65,7 +65,7 @@
 						<template #date>2021 - Actualidad</template>
 						<template #place>S4Learning</template>
 						<template #title>Desarrollo web</template>
-						<template #description>Área de Innovación. Mantenimiento y desarrollo</template>
+						<template #description>Área de Innovación. Mantenimiento y desarrollo backend principalmente con PHP</template>
 					</ResumeCard>
 				</div>
 			</div>
@@ -77,7 +77,7 @@
 
 				<ResumeSkills percent="85" skill="PHP"></ResumeSkills>
 				<ResumeSkills percent="70" skill="Javascript"></ResumeSkills>
-				<ResumeSkills percent="90" skill="HTML/CSS"></ResumeSkills>
+				<ResumeSkills percent="85" skill="HTML/CSS"></ResumeSkills>
 				<ResumeSkills percent="30" skill="Vue 3"></ResumeSkills>
 				<ResumeSkills percent="40" skill="NodeJS"></ResumeSkills>
 				<ResumeSkills percent="20" skill="C#"></ResumeSkills>

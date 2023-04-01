@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp, ref } from 'vue'
 import App from './App.vue'
 
 import './assets/main.css'
@@ -9,8 +9,24 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
-library.add( fab, fas, far );
+import LangES from './locales/es.json'
+import LangEN from './locales/en.json'
 
-createApp(App)
-.component('font-awesome-icon', FontAwesomeIcon)
-.mount('#app')
+library.add( fab, fas, far )
+
+const langCurrent = ref('es')
+const langMessage = (message_name) => {
+
+	if( langCurrent.value == 'en' ) {
+		return LangEN[message_name] || ''
+	}
+
+	return LangES[message_name] || ''
+}
+
+const app = createApp(App)
+
+app.component('font-awesome-icon', FontAwesomeIcon);
+app.config.globalProperties.langMessage = langMessage;
+app.config.globalProperties.langCurrent = langCurrent;
+app.mount('#app');
