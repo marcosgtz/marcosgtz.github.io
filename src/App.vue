@@ -9,6 +9,7 @@
 	import Tooltip from './components/minicomponents/Tooltip.vue'
 
 	const pageCurrent = ref( 'Home' );
+	const mainShow = ref( false );
 
 	function moveTo(place) {
 		pageCurrent.value = place;
@@ -16,12 +17,16 @@
 </script>
 
 <template>
+	<div class="fixed top-0 right-0 w-12 h-12 pt-3 bg-[#444444] text-center text-white z-10 rounded sm:hidden">
+		<font-awesome-icon :icon="['fas', 'bars']" @click="mainShow = !mainShow" />
+	</div>
+
 	<div class="flex items-center justify-center h-full">
-		<div class="grid grid-cols-12 bg-[#444444] xl:rounded-3xl xl:w-8/12 sm:w-screen xl:h-5/6 lg:h-full md:h-full relative">
-			<div class="col-span-3 text-center h-full overflow-hidden relative">
+		<div class="grid grid-cols-12 bg-[#444444] w-screen h-full xl:rounded-3xl xl:w-8/12 xl:h-5/6  relative">
+			<div :class="{hidden: !mainShow}" class="absolute bg-[#444444] sm:static sm:bg-inherit xl:relative col-span-3 text-center h-full overflow-hidden sm:block z-10">
 				<Profile @pageChange="moveTo" />
 			</div>
-			<div class="col-span-9 bg-[#222222] xl:rounded-3xl px-2 py-12 h-full overflow-hidden relative">
+			<div class="col-span-12 sm:col-span-9 bg-[#222222] xl:rounded-3xl px-2 py-12 h-full overflow-hidden relative">
 				<Home v-if="pageCurrent=='Home'" />
 				<AboutMe v-else-if="pageCurrent=='AboutMe'" />
 				<Contact v-else-if="pageCurrent=='Contact'" />
