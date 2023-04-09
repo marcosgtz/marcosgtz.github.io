@@ -6,73 +6,73 @@
 <template>
 	<div class="text-white px-16 h-full overflow-hidden scrollbar-stable hover:overflow-y-scroll">
 		<h1 class="text-3xl font-bold">
-			Resumen
+			{{$t( 'resumen.title-main' )}}
 		</h1>
 
 		<div class="grid grid-cols-2 gap-8 mt-6">
 			<div>
-				<h2 class="text-2xl font-bold mb-6">Educación</h2>
+				<h2 class="text-2xl font-bold mb-6">{{$t( 'resumen.title-education' )}}</h2>
 
 				<div class="grid grid-cols-3 text-sm">
 					<ResumeCard>
 						<template #date>2006</template>
 						<template #place>Instituto Tecnológico de Tuxtla Gutiérrez</template>
 						<template #title>Ing. en Sistemas Computacionales</template>
-						<template #description>Cédula Profesional: 7262067</template>
+						<template #description>{{$t( 'resumen.professional-license' )}}: 7262067</template>
 					</ResumeCard>
 					<ResumeCard>
 						<template #date>2012</template>
 						<template #place>Universidad Autónoma de Chiapas</template>
 						<template #title>Mtro. En Administración con Terminal en Tecnologías de Información</template>
-						<template #description>Cédula Profesional: 11577979</template>
+						<template #description>{{$t( 'resumen.professional-license' )}}: 11577979</template>
 					</ResumeCard>
 				</div>
 
-				<h2 class="text-2xl font-bold mb-6 mt-10">Experiencia</h2>
+				<h2 class="text-2xl font-bold mb-6 mt-10">{{$t( 'resumen.title-experience' )}}</h2>
 
 				<div class="grid grid-cols-3 text-sm">
 					<ResumeCard>
 						<template #date>2011 - 2012</template>
 						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>Desarrollo web</template>
-						<template #description>Coordinación de Tecnologías de Información. Sistema de ficha de aspirantes v2</template>
+						<template #title>{{$t( 'resumen.experience-2011-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2011-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
 						<template #date>2012 - 2014</template>
 						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>Desarrollo web y Servidores</template>
-						<template #description>Departamento Técnico del SAUCE. Sistema de reinscipción en línea. Portabilidad del sistema de servicios escolares a web. DBA Oracle. Administración de servidores</template>
+						<template #title>{{$t( 'resumen.experience-2012-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2012-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
 						<template #date>2017</template>
 						<template #place>Jóvenes Constructores de la Comunidad A.C</template>
-						<template #title>Desarrollo web</template>
-						<template #description>Trabajo por proyecto: sistema web en C#</template>
+						<template #title>{{$t( 'resumen.experience-2017-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2017-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
 						<template #date>2014 - 2021</template>
 						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>Desarrollo web y Servidores</template>
-						<template #description>Coordinación de Tecnologías de Información. Administración de servidores. Desarrollo de páginas web con firma electrónica</template>
+						<template #title>{{$t( 'resumen.experience-2014-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2014-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
 						<template #date>2018</template>
 						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>Desarrollo web</template>
-						<template #description>Departamento Técnico del SAUCE. Apoyo para el desarrollo del sistema de titulación electrónica</template>
+						<template #title>{{$t( 'resumen.experience-2018-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2018-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
-						<template #date>2021 - Actualidad</template>
+						<template #date>2021 - {{$t( 'resumen.experience-present' )}}</template>
 						<template #place>S4Learning</template>
-						<template #title>Desarrollo web</template>
-						<template #description>Área de Innovación. Mantenimiento y desarrollo backend principalmente con PHP</template>
+						<template #title>{{$t( 'resumen.experience-2021-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2021-desc' )}}</template>
 					</ResumeCard>
 				</div>
 			</div>
 
 			<div>
 				<h1 class="text-2xl font-bold mb-8">
-					Habilidades <span class="text-emerald-500">Web</span>
+					{{$t( 'resumen.title-skills' )}} <span class="text-emerald-500">{{$t( 'resumen.title-web' )}}</span>
 				</h1>
 
 				<ResumeSkills percent="85" skill="PHP"></ResumeSkills>
@@ -83,7 +83,7 @@
 				<ResumeSkills percent="20" skill="C#"></ResumeSkills>
 
 				<h1 class="text-2xl font-bold mt-12 mb-8">
-					Habilidades <span class="text-emerald-500">Frameworks</span>
+					{{$t( 'resumen.title-skills' )}} <span class="text-emerald-500">Frameworks</span>
 				</h1>
 
 				<ResumeSkills percent="60" skill="Laravel"></ResumeSkills>
@@ -92,7 +92,7 @@
 				<ResumeSkills percent="45" skill="ExpressJS"></ResumeSkills>
 
 				<h1 class="text-2xl font-bold mt-12 mb-7">
-					Otro Conocimientos
+					{{$t( 'resumen.title-other' )}}
 				</h1>
 
 				<div class="bg-emerald-600 p-2 rounded m-1 inline-block text-sm">Oracle</div>
@@ -124,7 +124,7 @@
 		</div>
 
 		<div class="col-span-2">
-			<a class="inline-block text-2xl font-bold mb-6 mt-10" href="https://www.dropbox.com/sh/jz7x7p2nl0jb43b/AAA7b4-4rp6GWkz1_oL5KBCqa?dl=0" target="_blank">Cursos</a>
+			<a class="inline-block text-2xl font-bold mb-6 mt-10" href="https://www.dropbox.com/sh/jz7x7p2nl0jb43b/AAA7b4-4rp6GWkz1_oL5KBCqa?dl=0" target="_blank">{{$t( 'resumen.title-courses' )}}</a>
 
 			<div class="grid grid-cols-2 gap-10">
 				<div class="grid grid-cols-3 border border-zinc-600 rounded-lg">

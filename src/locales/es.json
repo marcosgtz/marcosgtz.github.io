@@ -1,27 +1,64 @@
 {
-	"main_profession": "Programador web",
-	"main_download_resume": "Descargar CV",
-	"main_copyright": "Sin derechos reservados.",
-	"navbar_home": "Inicio",
-	"navbar_aboutme": "Acerca de mí",
-	"navbar_resume": "Resumen",
-	"navbar_portfolio": "Portafolio",
-	"navbar_contact": "Contacto",
-	"about_title1-1": "About",
-	"about_title1-2": "Me",
-	"about_description1": "Soy programador web con",
-	"about_description2": "años de experiencia en Front-End y Back-End. Conozco un poco de cada lenguaje de programación, pero mi especialidad es PHP.",
-	"about_description3": "Tengo la habilidad de entender, modificar y adaptarme a las metodologías más comunes de programación, incluido el",
-	"about_description4": "Estoy abierto a investigar por mi cuenta las cosas que desconozco y aprender en el proceso.",
-	"about_age": "Edad",
-	"about_place": "Residencia",
-	"about_email": "Correo",
-	"about_title2-1": "Qué puedo",
-	"about_title2-2": "Hacer?",
-	"about_title3-1": "Servicios",
-	"about_title3-2": "Terceros",
-	"about_frontend": "Conocimiento intermedio de js; básico-intermedio de bootstrap, tailwind, vue y angular.",
-	"about_backend": "Conocimiento avanzado de PHP. Intermedio de Laravel, Lumen, Twig, Inertia. Básico en nodejs + expressjs",
-	"about_services": "Instalación y configuración de servicios web (apache, nginx, iis), manejo de ssh, ftp, bash, php-(fpm,cli), mysql, oracle.",
-	"about_thirdparty": "Autenticaciones con Ldap, Azure, Google, Saml. Creación de plugins básicos para wordpress y moodle. Google Admin SDK con PHP. Manejo de firmas electrónicas."
+	"main": {
+		"profession": "Programador web",
+		"download_resume": "Descargar CV",
+		"copyright": "Sin derechos reservados.",
+		"language": "Idioma"
+	},
+	"navbar": {
+		"home": "Inicio",
+		"aboutme": "Acerca de mí",
+		"resume": "Resumen",
+		"portfolio": "Portafolio",
+		"contact": "Contacto"
+	},
+	"about": {
+		"title1-1": "About",
+		"title1-2": "Me",
+		"description1": "Soy programador web con",
+		"description2": "años de experiencia en Front-End y Back-End. Conozco un poco de cada lenguaje de programación, pero mi especialidad es PHP.",
+		"description3": "Tengo la habilidad de entender, modificar y adaptarme a las metodologías más comunes de programación, incluido el",
+		"description4": "Estoy abierto a investigar por mi cuenta las cosas que desconozco y aprender en el proceso.",
+		"age": "Edad",
+		"place": "Residencia",
+		"email": "Correo",
+		"title2-1": "Qué puedo",
+		"title2-2": "Hacer?",
+		"title3-1": "Servicios",
+		"title3-2": "Terceros",
+		"frontend": "Conocimiento intermedio de js; básico-intermedio de bootstrap, tailwind, vue y angular.",
+		"backend": "Conocimiento avanzado de PHP. Intermedio de Laravel, Lumen, Twig, Inertia. Básico en nodejs + expressjs",
+		"services": "Instalación y configuración de servicios web (apache, nginx, iis), manejo de ssh, ftp, bash, php-(fpm,cli), mysql, oracle.",
+		"thirdparty": "Autenticaciones con Ldap, Azure, Google, Saml. Creación de plugins básicos para wordpress y moodle. Google Admin SDK con PHP. Manejo de firmas electrónicas."
+	},
+	"resumen": {
+		"title-main": "Resumen",
+		"title-education": "Educación",
+		"title-skills": "Habilidades",
+		"title-web": "Web",
+		"title-experience": "Experiencia",
+		"title-other": "Otros Conocimientos",
+		"title-courses": "Cursos",
+		"professional-license": "Cédula Profesional",
+
+		"experience-present": "Actualidad",
+
+		"experience-2011-title": "Desarrollo web",
+		"experience-2011-desc": "Coordinación de Tecnologías de Información. Sistema de ficha de aspirantes v2",
+
+		"experience-2012-title": "Desarrollo web y Servidores",
+		"experience-2012-desc": "Departamento Técnico del SAUCE. Sistema de reinscipción en línea. Portabilidad del sistema de servicios escolares a web. DBA Oracle. Administración de servidores",
+
+		"experience-2017-title": "Desarrollo web",
+		"experience-2017-desc": "Trabajo por proyecto: sistema web en C#",
+
+		"experience-2014-title": "Desarrollo web y Servidores",
+		"experience-2014-desc": "Coordinación de Tecnologías de Información. Administración de servidores. Desarrollo de páginas web con firma electrónica",
+
+		"experience-2018-title": "Desarrollo web",
+		"experience-2018-desc": "Departamento Técnico del SAUCE. Apoyo para el desarrollo del sistema de titulación electrónica",
+
+		"experience-2021-title": "Desarrollo web",
+		"experience-2021-desc": "Área de Innovación Tecnológica. Mantenimiento y desarrollo backend (Laravel, Moodle, Wordpress)"
+	}
 }
