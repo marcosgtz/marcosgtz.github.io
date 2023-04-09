@@ -42,13 +42,13 @@
 
 			<MenuItems class="absolute bg-[#222222] text-white mx-auto rounded w-32">
 				<MenuItem v-slot="{ active }">
-					<button :class="[active ? 'bg-violet-500 text-white' : 'text-white', 'flex w-full items-center rounded-md px-2 py-2 text-sm',]" @click="this.$i18n.locale='es'">
+					<button :class="[active ? 'bg-violet-500 text-white' : 'text-white', 'flex w-full items-center rounded-md px-2 py-2 text-sm',]" @click="$i18n.locale='es'">
 						<span class="fi fi-mx mr-3"></span>
 						Español
 					</button>
 				</MenuItem>
 				<MenuItem v-slot="{ active }">
-					<button :class="[active ? 'bg-violet-500 text-white' : 'text-white', 'flex w-full items-center rounded-md px-2 py-2 text-sm',]" @click="this.$i18n.locale='en'">
+					<button :class="[active ? 'bg-violet-500 text-white' : 'text-white', 'flex w-full items-center rounded-md px-2 py-2 text-sm',]" @click="$i18n.locale='en'">
 						<span class="fi fi-us mr-3"></span>
 						English
 					</button>
