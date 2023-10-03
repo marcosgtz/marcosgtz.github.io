@@ -29,7 +29,7 @@
 			<a class="mx-3" title="twitter" href="https://twitter.com/MarcosG52811338" target="_blank">
 				<font-awesome-icon icon="fa-brands fa-twitter" />
 			</a>
-			<a class="mx-3 inline xl:hidden" title="resume" href="https://docs.google.com/presentation/d/1dgAs-2XnmkFbhRVE3UGviVdESzElpgsO1EqWduR0VaU/?usp=share_link" target="_blank">
+			<a class="mx-3 inline xl:hidden" title="resume" href="https://docs.google.com/presentation/d/1r7XZP141wcMo1cutvmq7q3T8mZNUImJZVDO_U7NKC4I" target="_blank">
 				<font-awesome-icon icon="fa-solid fa-file" />
 			</a>
 		</div>
@@ -58,7 +58,7 @@
 
 		<br />
 
-		<a class="mt-6 px-8 py-2 rounded-full border-2 border-white hover:bg-white hover:text-black hidden xl:inline-block" href="https://docs.google.com/presentation/d/1dgAs-2XnmkFbhRVE3UGviVdESzElpgsO1EqWduR0VaU/?usp=share_link" target="_blank">
+		<a class="mt-6 px-8 py-2 rounded-full border-2 border-white hover:bg-white hover:text-black hidden xl:inline-block" href="https://docs.google.com/presentation/d/1r7XZP141wcMo1cutvmq7q3T8mZNUImJZVDO_U7NKC4I" target="_blank">
 			{{$t('main.download_resume')}}
 		</a>
 
