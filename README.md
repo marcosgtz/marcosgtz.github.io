@@ -9,6 +9,6 @@ El diseño está basado en breezycv. Por el momento no estoy buscando trabajo :)
 ## English
 I'm web developer but also can manage servers. This resume is made with Vue3.
 
-Design is based on breezycv. For now I'm not searching a job :)
+Design is based on breezycv. For now I'm not looking for a job :)
 
 
