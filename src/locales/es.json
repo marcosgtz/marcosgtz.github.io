@@ -60,5 +60,21 @@
 
 		"experience-2021-title": "Desarrollo web",
 		"experience-2021-desc": "Área de Innovación Tecnológica. Mantenimiento y desarrollo backend (Laravel, Moodle, Wordpress)"
+	},
+	"contact": {
+		"title": "Concacto",
+		"name-title": "Nombre",
+		"name-error": "* Debes escribir un nombre válido",
+		"email-title": "Correo",
+		"email-error": "* Debes escribir un correo válido",
+		"message-title": "Mensaje",
+		"message-error": "* Debes escribir un mensaje válido",
+		"message-placeholder": "Por favor, explica en detalle el propósito de éste mensaje. Te responderé tan pronto como sea posible",
+		"recaptcha-error": "* Debes validar el captcha",
+		"send-text": "Enviar mensaje",
+		"send-processing": "Enviando",
+		"send-success": "Gracias por considerarme como tu opción, me comunicaré lo más pronto posible.",
+		"send-failed": "Lo siento por el incoveniente del envío de correo, lo solucionaré pronto",
+		"modal-title": "Mensaje"
 	}
 }

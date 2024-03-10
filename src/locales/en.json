@@ -60,5 +60,21 @@
 
 		"experience-2021-title": "Web developer",
 		"experience-2021-desc": "Área de Innovación Tecnológica. Maintenance and development (Laravel, Moodle, Wordpress)"
+	},
+	"contact": {
+		"title": "Concact",
+		"name-title": "Name",
+		"name-error": "* You must write a valid name",
+		"email-title": "Email",
+		"email-error": "* You must write a valid email",
+		"message-title": "Message",
+		"message-error": "* You must write a valid message",
+		"message-placeholder": "Please, explain in detail the purpose of this message. I'll get back to you as soon as possible.",
+		"recaptcha-error": "* You must validate the captcha",
+		"send-text": "Send message",
+		"send-processing": "Sending",
+		"send-success": "Thank you for your choose me, I'll communicate with you as soon possible.",
+		"send-failed": "My apolologize by the incovenient during email send, I'll fix as soon possible.",
+		"modal-title": "Message"
 	}
 }

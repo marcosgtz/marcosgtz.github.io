@@ -7,6 +7,9 @@
 	import Contact from './components/Contact.vue'
 	import Portfolio from './components/Portfolio.vue'
 	import Tooltip from './components/minicomponents/Tooltip.vue'
+	import { useRecaptchaProvider } from "vue-recaptcha/head";
+
+	useRecaptchaProvider();
 
 	const pageCurrent = ref( 'Home' );
 	const mainShow = ref( false );
@@ -17,13 +20,13 @@
 </script>
 
 <template>
-	<div class="fixed top-0 right-0 w-12 h-12 pt-3 bg-[#444444] text-center text-white z-10 rounded sm:hidden">
+	<div class="fixed top-0 right-0 w-12 h-12 pt-3 bg-zinc-850 text-center text-white z-10 rounded sm:hidden">
 		<font-awesome-icon :icon="['fas', 'bars']" @click="mainShow = !mainShow" />
 	</div>
 
 	<div class="flex items-center justify-center h-full">
-		<div class="grid grid-cols-12 bg-[#444444] w-screen h-full xl:rounded-3xl xl:w-8/12 xl:h-5/6  relative">
-			<div :class="{hidden: !mainShow}" class="absolute bg-[#444444] sm:static sm:bg-inherit xl:relative col-span-3 text-center h-full overflow-hidden sm:block z-10">
+		<div class="grid grid-cols-12 bg-zinc-850 w-screen h-full xl:rounded-3xl xl:w-8/12 xl:h-5/6  relative">
+			<div :class="{hidden: !mainShow}" class="absolute bg-zinc-850 sm:static sm:bg-inherit xl:relative col-span-3 text-center h-full overflow-hidden sm:block z-10">
 				<Profile @pageChange="moveTo" />
 			</div>
 			<div class="col-span-12 sm:col-span-9 bg-[#222222] xl:rounded-3xl px-2 py-12 h-full overflow-hidden relative">
@@ -34,7 +37,7 @@
 				<Portfolio v-else-if="pageCurrent=='Portfolio'" />
 			</div>
 
-			<div class="hidden lg:block absolute -right-20 bg-[#444444] w-16 pt-6 pb-6 rounded-full text-2xl text-black text-center text-gray-400">
+			<div class="hidden lg:block absolute -right-20 bg-zinc-850 w-16 pt-6 pb-6 rounded-full text-2xl text-center text-gray-400">
 				<div class="cursor-pointer mb-6 relative tooltip" @click="pageCurrent='Home'">
 					<font-awesome-icon icon="fa-solid fa-house" />
 					<Tooltip>{{$t('navbar.home')}}</Tooltip>

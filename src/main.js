@@ -4,6 +4,7 @@ import App from './App.vue'
 
 import './assets/main.css'
 
+import { VueRecaptchaPlugin } from 'vue-recaptcha/head'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -21,4 +22,7 @@ const app = createApp(App)
 
 app.component('font-awesome-icon', FontAwesomeIcon);
 app.use(i18n);
+app.use(VueRecaptchaPlugin, {
+	v2SiteKey: '6LcPtZIpAAAAAPd3JjuGmHl8wfQTF8h0da8F-heZ'
+});
 app.mount('#app');

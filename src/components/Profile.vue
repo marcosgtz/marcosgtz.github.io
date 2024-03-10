@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="mt-6 text-xl">
-			<a class="mx-3" title="linked in" href="https://www.linkedin.com/" target="_blank">
+			<a class="mx-3" title="linked in" href="https://www.linkedin.com/in/marcos-gutierrez-gomez-4460211a6/" target="_blank">
 				<font-awesome-icon icon="fa-brands fa-linkedin-in" />
 			</a>
 			<a class="mx-3" title="facebook" href="https://www.facebook.com/marcos.gtz.16/" target="_blank">
@@ -63,19 +63,19 @@
 		</a>
 
 		<div class="mt-8 block lg:hidden">
-			<div class="cursor-pointer my-2 pb-2 border-b border-gray-600" @click="emit('pageChange', 'Home')">
+			<div class="cursor-pointer my-2 pb-2 text-zinc-400 hover:text-white" @click="emit('pageChange', 'Home')">
 				{{$t('navbar.home')}}
 			</div>
-			<div class="cursor-pointer my-2 pb-2 border-b border-gray-600" @click="emit('pageChange','AboutMe')">
+			<div class="cursor-pointer my-2 pb-2 text-zinc-400 hover:text-white" @click="emit('pageChange','AboutMe')">
 				{{$t('navbar.aboutme')}}
 			</div>
-			<div class="cursor-pointer my-2 pb-2 border-b border-gray-600" @click="emit('pageChange','Resume')">
+			<div class="cursor-pointer my-2 pb-2 text-zinc-400 hover:text-white" @click="emit('pageChange','Resume')">
 				{{$t('navbar.resume')}}
 			</div>
-			<div class="cursor-pointer my-2 pb-2 border-b border-gray-600" @click="emit('pageChange','Portfolio')">
+			<div class="cursor-pointer my-2 pb-2 text-zinc-400 hover:text-white" @click="emit('pageChange','Portfolio')">
 				{{$t('navbar.portfolio')}}
 			</div>
-			<div class="cursor-pointer my-2 pb-2 border-b border-gray-600" @click="emit('pageChange','Contact')">
+			<div class="cursor-pointer my-2 pb-2 text-zinc-400 hover:text-white" @click="emit('pageChange','Contact')">
 				{{$t('navbar.contact')}}
 			</div>
 		</div>
