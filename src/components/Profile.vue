@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="mt-6 text-xl">
-			<a class="mx-3" title="linked in" href="https://www.linkedin.com/in/marcos-gutierrez-gomez-4460211a6/" target="_blank">
+			<a class="mx-3" title="linked in" href="www.linkedin.com/in/marcosgtz" target="_blank">
 				<font-awesome-icon icon="fa-brands fa-linkedin-in" />
 			</a>
 			<a class="mx-3" title="facebook" href="https://www.facebook.com/marcos.gtz.16/" target="_blank">
@@ -58,7 +58,7 @@
 
 		<br />
 
-		<a class="mt-6 px-8 py-2 rounded-full border-2 border-white hover:bg-white hover:text-black hidden xl:inline-block" href="https://docs.google.com/presentation/d/1r7XZP141wcMo1cutvmq7q3T8mZNUImJZVDO_U7NKC4I" target="_blank">
+		<a class="mt-6 px-8 py-2 rounded-full border-2 border-white hover:bg-white hover:text-black hidden xl:inline-block" href="https://docs.google.com/presentation/d/1iMBa9Af9Jto3aX_yRi4lnozM_UpAAaj2V3pXv8Dv23Q/?usp=sharing" target="_blank">
 			{{$t('main.download_resume')}}
 		</a>
 

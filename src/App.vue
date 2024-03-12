@@ -26,7 +26,7 @@
 
 	<div class="flex items-center justify-center h-full">
 		<div class="grid grid-cols-12 bg-zinc-850 w-screen h-full xl:rounded-3xl xl:w-8/12 xl:h-5/6  relative">
-			<div :class="{hidden: !mainShow}" class="absolute bg-zinc-850 sm:static sm:bg-inherit xl:relative col-span-3 text-center h-full overflow-hidden sm:block z-10">
+			<div :class="{hidden: !mainShow}" class="absolute bg-zinc-850 rounded-3xl sm:static sm:bg-inherit xl:relative col-span-3 text-center h-full overflow-hidden sm:block z-10">
 				<Profile @pageChange="moveTo" />
 			</div>
 			<div class="col-span-12 sm:col-span-9 bg-[#222222] xl:rounded-3xl px-2 py-12 h-full overflow-hidden relative">

@@ -15,16 +15,16 @@
 
 				<div class="grid grid-cols-3 text-sm">
 					<ResumeCard>
-						<template #date>2006</template>
-						<template #place>Instituto Tecnológico de Tuxtla Gutiérrez</template>
-						<template #title>Ing. en Sistemas Computacionales</template>
-						<template #description>{{$t( 'resumen.professional-license' )}}: 7262067</template>
-					</ResumeCard>
-					<ResumeCard>
 						<template #date>2012</template>
 						<template #place>Universidad Autónoma de Chiapas</template>
 						<template #title>Mtro. En Administración con Terminal en Tecnologías de Información</template>
 						<template #description>{{$t( 'resumen.professional-license' )}}: 11577979</template>
+					</ResumeCard>
+					<ResumeCard>
+						<template #date>2006</template>
+						<template #place>Instituto Tecnológico de Tuxtla Gutiérrez</template>
+						<template #title>Ing. en Sistemas Computacionales</template>
+						<template #description>{{$t( 'resumen.professional-license' )}}: 7262067</template>
 					</ResumeCard>
 				</div>
 
@@ -32,28 +32,10 @@
 
 				<div class="grid grid-cols-3 text-sm">
 					<ResumeCard>
-						<template #date>2011 - 2012</template>
-						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>{{$t( 'resumen.experience-2011-title' )}}</template>
-						<template #description>{{$t( 'resumen.experience-2011-desc' )}}</template>
-					</ResumeCard>
-					<ResumeCard>
-						<template #date>2012 - 2014</template>
-						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>{{$t( 'resumen.experience-2012-title' )}}</template>
-						<template #description>{{$t( 'resumen.experience-2012-desc' )}}</template>
-					</ResumeCard>
-					<ResumeCard>
-						<template #date>2017</template>
-						<template #place>Jóvenes Constructores de la Comunidad A.C</template>
-						<template #title>{{$t( 'resumen.experience-2017-title' )}}</template>
-						<template #description>{{$t( 'resumen.experience-2017-desc' )}}</template>
-					</ResumeCard>
-					<ResumeCard>
-						<template #date>2014 - 2021</template>
-						<template #place>Universidad Autónoma de Chiapas</template>
-						<template #title>{{$t( 'resumen.experience-2014-title' )}}</template>
-						<template #description>{{$t( 'resumen.experience-2014-desc' )}}</template>
+						<template #date>2021 - {{$t( 'resumen.experience-present' )}}</template>
+						<template #place>S4Learning</template>
+						<template #title>{{$t( 'resumen.experience-2021-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2021-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
 						<template #date>2018</template>
@@ -62,10 +44,28 @@
 						<template #description>{{$t( 'resumen.experience-2018-desc' )}}</template>
 					</ResumeCard>
 					<ResumeCard>
-						<template #date>2021 - {{$t( 'resumen.experience-present' )}}</template>
-						<template #place>S4Learning</template>
-						<template #title>{{$t( 'resumen.experience-2021-title' )}}</template>
-						<template #description>{{$t( 'resumen.experience-2021-desc' )}}</template>
+						<template #date>2014 - 2021</template>
+						<template #place>Universidad Autónoma de Chiapas</template>
+						<template #title>{{$t( 'resumen.experience-2014-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2014-desc' )}}</template>
+					</ResumeCard>
+					<ResumeCard>
+						<template #date>2017</template>
+						<template #place>Jóvenes Constructores de la Comunidad A.C</template>
+						<template #title>{{$t( 'resumen.experience-2017-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2017-desc' )}}</template>
+					</ResumeCard>
+					<ResumeCard>
+						<template #date>2012 - 2014</template>
+						<template #place>Universidad Autónoma de Chiapas</template>
+						<template #title>{{$t( 'resumen.experience-2012-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2012-desc' )}}</template>
+					</ResumeCard>
+					<ResumeCard>
+						<template #date>2011 - 2012</template>
+						<template #place>Universidad Autónoma de Chiapas</template>
+						<template #title>{{$t( 'resumen.experience-2011-title' )}}</template>
+						<template #description>{{$t( 'resumen.experience-2011-desc' )}}</template>
 					</ResumeCard>
 				</div>
 			</div>
@@ -76,9 +76,9 @@
 				</h1>
 
 				<ResumeSkills percent="85" skill="PHP"></ResumeSkills>
-				<ResumeSkills percent="70" skill="Javascript"></ResumeSkills>
-				<ResumeSkills percent="85" skill="HTML/CSS"></ResumeSkills>
-				<ResumeSkills percent="30" skill="Vue 3"></ResumeSkills>
+				<ResumeSkills percent="65" skill="Javascript"></ResumeSkills>
+				<ResumeSkills percent="80" skill="HTML/CSS"></ResumeSkills>
+				<ResumeSkills percent="35" skill="Vue 3"></ResumeSkills>
 				<ResumeSkills percent="40" skill="NodeJS"></ResumeSkills>
 				<ResumeSkills percent="20" skill="C#"></ResumeSkills>
 
