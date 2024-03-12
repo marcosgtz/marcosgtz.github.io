@@ -9,9 +9,9 @@
 	<div class="mt-3 px-2 xl:p-0 xl:mt-16 text-white">
 
 		<div class="text-left xl:text-center">
-			<img class="rounded-full w-12 shadow shadow-zinc-900 inline-block mt-1 float-left lg:float-none lg:w-36 lg:shadow-xl" src="/perfil.jpg" />
+			<img class="rounded-full w-12 shadow shadow-zinc-900 inline-block mt-1 float-left lg:float-none lg:w-36 lg:shadow-xl" src="https://lh3.googleusercontent.com/a/ACg8ocJ_3la05z7o7YDBW_0uSQL8vRoT618rPaCkiU6pI7FEeYQ=s288-c-no" />
 
-			<div class="font-bold block text-md ml-3 mt-1 sm:inline-block xl:w-full">
+			<div class="font-bold block text-md ml-3 mt-2 sm:inline-block xl:w-full">
 				<div class="xl:text-4xl">Marcos Gtz.</div>
 
 				<div class="text-zinc-300 text-md font-light">{{$t('main.profession')}}</div>
@@ -20,16 +20,19 @@
 		</div>
 
 		<div class="mt-6 text-xl">
-			<a class="mx-3" title="linked in" href="www.linkedin.com/in/marcosgtz" target="_blank">
+			<a class="mx-3 inline-block" title="linked in" href="www.linkedin.com/in/marcosgtz" target="_blank">
 				<font-awesome-icon icon="fa-brands fa-linkedin-in" />
 			</a>
-			<a class="mx-3" title="facebook" href="https://www.facebook.com/marcos.gtz.16/" target="_blank">
+			<a class="mx-3 inline-block" title="facebook" href="https://www.facebook.com/marcos.gtz.16/" target="_blank">
 				<font-awesome-icon icon="fa-brands fa-facebook-f" />
 			</a>
-			<a class="mx-3" title="twitter" href="https://twitter.com/MarcosG52811338" target="_blank">
+			<a class="mx-3 inline-block" title="twitter" href="https://twitter.com/MarcosG52811338" target="_blank">
 				<font-awesome-icon icon="fa-brands fa-twitter" />
 			</a>
-			<a class="mx-3 inline xl:hidden" title="resume" href="https://docs.google.com/presentation/d/1r7XZP141wcMo1cutvmq7q3T8mZNUImJZVDO_U7NKC4I" target="_blank">
+			<a class="mx-3 inline-block xl:hidden" title="resume" href="https://docs.google.com/presentation/d/1iMBa9Af9Jto3aX_yRi4lnozM_UpAAaj2V3pXv8Dv23Q/?usp=sharing" target="_blank">
+				<font-awesome-icon icon="fa-solid fa-file" />
+			</a>
+			<a class="mx-3 inline-block xl:hidden" title="harvard resume" href="https://docs.google.com/document/d/1qclNq4JPYsSMMasuI31pIs-YdlU0SbI_zMJKwGRCQjk/?usp=sharing" target="_blank">
 				<font-awesome-icon icon="fa-solid fa-file" />
 			</a>
 		</div>
@@ -60,6 +63,10 @@
 
 		<a class="mt-6 px-8 py-2 rounded-full border-2 border-white hover:bg-white hover:text-black hidden xl:inline-block" href="https://docs.google.com/presentation/d/1iMBa9Af9Jto3aX_yRi4lnozM_UpAAaj2V3pXv8Dv23Q/?usp=sharing" target="_blank">
 			{{$t('main.download_resume')}}
+		</a>
+		<br />
+		<a class="mt-6 px-8 py-2 rounded-full border-2 border-white hover:bg-white hover:text-black hidden xl:inline-block" href="https://docs.google.com/document/d/1qclNq4JPYsSMMasuI31pIs-YdlU0SbI_zMJKwGRCQjk/?usp=sharing" target="_blank">
+			{{$t('main.download_harvard')}}
 		</a>
 
 		<div class="mt-8 block lg:hidden">

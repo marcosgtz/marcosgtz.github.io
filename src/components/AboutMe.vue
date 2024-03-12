@@ -25,8 +25,6 @@
 				<span class="text-emerald-600 font-bold mr-2">{{$t('about.age')}}</span>{{ getAge() }}
 				<br />
 				<span class="text-emerald-600 font-bold mr-2">{{$t('about.place')}}</span>Chiapas, MEX
-				<br />
-				<span class="text-emerald-600 font-bold mr-2">{{$t('about.email')}}</span><a href="mailto:gtzcrash@gmail.com">gtzcrash@gmail.com</a>
 			</div>
 		</div>
 

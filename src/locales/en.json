@@ -1,7 +1,8 @@
 {
 	"main": {
 		"profession": "Web Developer",
-		"download_resume": "Download resume",
+		"download_resume": "Creative resume",
+		"download_harvard": "Harvard resume",
 		"copyright": "No rights reserved.",
 		"language": "Language"
 	},
